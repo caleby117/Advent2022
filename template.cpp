@@ -8,9 +8,6 @@
 
 using namespace std;
 
-void print_vec(vector<T>& vec);
-void print_map(unordered_map<T,T>& m);
-
 int main (int argc, char* argv[])
 {
     std::string line;
@@ -27,23 +24,4 @@ int main (int argc, char* argv[])
     }
     printf("%d", result);
     return 0;
-}
-
-void print_vec(vector<T>& vec)
-{
-    for(auto item : vec)
-    {
-        cout << item << " ";
-    }
-    cout << endl;
-}
-
-void print_map(unordered_map<T,T>& m)
-{
-    cout << "{";
-    for(auto p : m)
-    {
-        cout << p->first << ": "<<p->second << ", ";
-    }
-    cout << "}\n";
 }
