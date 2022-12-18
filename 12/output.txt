@@ -1,0 +1,324 @@
+printing grid 5 by 8
+S a b q p o n m 
+a b c r y x x l 
+a c c s z E x k 
+a c c t u v w j 
+a b d e f g h i 
+startcoords: 0 0
+endcoords: 2 5
+
+Depth = 0
+Curr: 0 0 a
+neighbors of 0 0 a
+0 1 a, 1 0 a, 
+Start: Cell 0 1 a
+Set prev 0 0
+Set prev 0 0
+Start: Cell 1 0 a
+Set prev 0 0
+Set prev 0 0
+new depth
+
+Depth = 1
+Curr: 0 1 a
+neighbors of 0 1 a
+0 0 a, 0 2 b, 1 1 b, 
+Cell 0 2 b added
+Set prev 0 1
+Cell 1 1 b added
+Set prev 0 1
+
+Depth = 1
+Curr: 1 0 a
+neighbors of 1 0 a
+0 0 a, 1 1 b, 2 0 a, 
+Cell 2 0 a added
+Set prev 1 0
+new depth
+
+Depth = 2
+Curr: 0 2 b
+neighbors of 0 2 b
+0 1 a, 0 3 q, 1 2 c, 
+Cell 1 2 c added
+Set prev 0 2
+
+Depth = 2
+Curr: 1 1 b
+neighbors of 1 1 b
+0 1 a, 1 0 a, 1 2 c, 2 1 c, 
+Cell 2 1 c added
+Set prev 1 1
+
+Depth = 2
+Curr: 2 0 a
+neighbors of 2 0 a
+1 0 a, 2 1 c, 3 0 a, 
+Cell 3 0 a added
+Set prev 2 0
+new depth
+
+Depth = 3
+Curr: 1 2 c
+neighbors of 1 2 c
+0 2 b, 1 1 b, 1 3 r, 2 2 c, 
+Cell 2 2 c added
+Set prev 1 2
+
+Depth = 3
+Curr: 2 1 c
+neighbors of 2 1 c
+1 1 b, 2 0 a, 2 2 c, 3 1 c, 
+Cell 3 1 c added
+Set prev 2 1
+
+Depth = 3
+Curr: 3 0 a
+neighbors of 3 0 a
+2 0 a, 3 1 c, 4 0 a, 
+Cell 4 0 a added
+Set prev 3 0
+new depth
+
+Depth = 4
+Curr: 2 2 c
+neighbors of 2 2 c
+1 2 c, 2 1 c, 2 3 s, 3 2 c, 
+Cell 3 2 c added
+Set prev 2 2
+
+Depth = 4
+Curr: 3 1 c
+neighbors of 3 1 c
+2 1 c, 3 0 a, 3 2 c, 4 1 b, 
+Cell 4 1 b added
+Set prev 3 1
+
+Depth = 4
+Curr: 4 0 a
+neighbors of 4 0 a
+3 0 a, 4 1 b, 
+new depth
+
+Depth = 5
+Curr: 3 2 c
+neighbors of 3 2 c
+2 2 c, 3 1 c, 3 3 t, 4 2 d, 
+Cell 4 2 d added
+Set prev 3 2
+
+Depth = 5
+Curr: 4 1 b
+neighbors of 4 1 b
+3 1 c, 4 0 a, 4 2 d, 
+new depth
+
+Depth = 6
+Curr: 4 2 d
+neighbors of 4 2 d
+3 2 c, 4 1 b, 4 3 e, 
+Cell 4 3 e added
+Set prev 4 2
+new depth
+
+Depth = 7
+Curr: 4 3 e
+neighbors of 4 3 e
+3 3 t, 4 2 d, 4 4 f, 
+Cell 4 4 f added
+Set prev 4 3
+new depth
+
+Depth = 8
+Curr: 4 4 f
+neighbors of 4 4 f
+3 4 u, 4 3 e, 4 5 g, 
+Cell 4 5 g added
+Set prev 4 4
+new depth
+
+Depth = 9
+Curr: 4 5 g
+neighbors of 4 5 g
+3 5 v, 4 4 f, 4 6 h, 
+Cell 4 6 h added
+Set prev 4 5
+new depth
+
+Depth = 10
+Curr: 4 6 h
+neighbors of 4 6 h
+3 6 w, 4 5 g, 4 7 i, 
+Cell 4 7 i added
+Set prev 4 6
+new depth
+
+Depth = 11
+Curr: 4 7 i
+neighbors of 4 7 i
+3 7 j, 4 6 h, 
+Cell 3 7 j added
+Set prev 4 7
+new depth
+
+Depth = 12
+Curr: 3 7 j
+neighbors of 3 7 j
+2 7 k, 3 6 w, 4 7 i, 
+Cell 2 7 k added
+Set prev 3 7
+new depth
+
+Depth = 13
+Curr: 2 7 k
+neighbors of 2 7 k
+1 7 l, 2 6 x, 3 7 j, 
+Cell 1 7 l added
+Set prev 2 7
+new depth
+
+Depth = 14
+Curr: 1 7 l
+neighbors of 1 7 l
+0 7 m, 1 6 x, 2 7 k, 
+Cell 0 7 m added
+Set prev 1 7
+new depth
+
+Depth = 15
+Curr: 0 7 m
+neighbors of 0 7 m
+0 6 n, 1 7 l, 
+Cell 0 6 n added
+Set prev 0 7
+new depth
+
+Depth = 16
+Curr: 0 6 n
+neighbors of 0 6 n
+0 5 o, 0 7 m, 1 6 x, 
+Cell 0 5 o added
+Set prev 0 6
+new depth
+
+Depth = 17
+Curr: 0 5 o
+neighbors of 0 5 o
+0 4 p, 0 6 n, 1 5 x, 
+Cell 0 4 p added
+Set prev 0 5
+new depth
+
+Depth = 18
+Curr: 0 4 p
+neighbors of 0 4 p
+0 3 q, 0 5 o, 1 4 y, 
+Cell 0 3 q added
+Set prev 0 4
+new depth
+
+Depth = 19
+Curr: 0 3 q
+neighbors of 0 3 q
+0 2 b, 0 4 p, 1 3 r, 
+Cell 1 3 r added
+Set prev 0 3
+new depth
+
+Depth = 20
+Curr: 1 3 r
+neighbors of 1 3 r
+0 3 q, 1 2 c, 1 4 y, 2 3 s, 
+Cell 2 3 s added
+Set prev 1 3
+new depth
+
+Depth = 21
+Curr: 2 3 s
+neighbors of 2 3 s
+1 3 r, 2 2 c, 2 4 z, 3 3 t, 
+Cell 3 3 t added
+Set prev 2 3
+new depth
+
+Depth = 22
+Curr: 3 3 t
+neighbors of 3 3 t
+2 3 s, 3 2 c, 3 4 u, 4 3 e, 
+Cell 3 4 u added
+Set prev 3 3
+new depth
+
+Depth = 23
+Curr: 3 4 u
+neighbors of 3 4 u
+2 4 z, 3 3 t, 3 5 v, 4 4 f, 
+Cell 3 5 v added
+Set prev 3 4
+new depth
+
+Depth = 24
+Curr: 3 5 v
+neighbors of 3 5 v
+2 5 z, 3 4 u, 3 6 w, 4 5 g, 
+Cell 3 6 w added
+Set prev 3 5
+new depth
+
+Depth = 25
+Curr: 3 6 w
+neighbors of 3 6 w
+2 6 x, 3 5 v, 3 7 j, 4 6 h, 
+Cell 2 6 x added
+Set prev 3 6
+new depth
+
+Depth = 26
+Curr: 2 6 x
+neighbors of 2 6 x
+1 6 x, 2 5 z, 2 7 k, 3 6 w, 
+Cell 1 6 x added
+Set prev 2 6
+new depth
+
+Depth = 27
+Curr: 1 6 x
+neighbors of 1 6 x
+0 6 n, 1 5 x, 1 7 l, 2 6 x, 
+Cell 1 5 x added
+Set prev 1 6
+new depth
+
+Depth = 28
+Curr: 1 5 x
+neighbors of 1 5 x
+0 5 o, 1 4 y, 1 6 x, 2 5 z, 
+Cell 1 4 y added
+Set prev 1 5
+new depth
+
+Depth = 29
+Curr: 1 4 y
+neighbors of 1 4 y
+0 4 p, 1 3 r, 1 5 x, 2 4 z, 
+Cell 2 4 z added
+Set prev 1 4
+new depth
+
+Depth = 30
+Curr: 2 4 z
+neighbors of 2 4 z
+1 4 y, 2 3 s, 2 5 z, 3 4 u, 
+Cell 2 5 z added
+Set prev 2 4
+new depth
+
+Depth = 31
+Curr: 2 5 z
+printing grid 5 by 8
+0,0 0,0 0,1 0,4 0,5 0,6 0,7 1,7 
+0,0 0,1 0,2 0,3 1,5 1,6 2,6 2,7 
+1,0 1,1 1,2 1,3 1,4 2,4 3,6 3,7 
+2,0 2,1 2,2 2,3 3,3 3,4 3,5 4,7 
+3,0 3,1 3,2 4,2 4,3 4,4 4,5 4,6 
+0
