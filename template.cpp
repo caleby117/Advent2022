@@ -22,6 +22,11 @@ int main (int argc, char* argv[])
         }
         infile.close();
     }
+    else 
+    {
+        printf("Error opening file\n");
+        return 1;
+    }
     printf("%d", result);
     return 0;
 }
