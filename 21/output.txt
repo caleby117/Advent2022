@@ -1,0 +1,140 @@
+Creating connections
+p1 eval left = 105945721530026
+p1 eval right = 52716091087786
+curr humn: 1
+curr qcjd: 1
+curr sgtl: 1
+curr wcdd: 1
+curr lfpn: 1
+curr wqdw: 1
+curr lgrf: 1
+curr gzlb: 1
+curr fwfg: 1
+curr gdps: 1
+curr tqgj: 1
+curr qrst: 1
+curr hccn: 1
+curr gmmv: 1
+curr mrrn: 1
+curr fcjc: 1
+curr szwf: 1
+curr jzhq: 1
+curr vgwg: 1
+curr nsph: 1
+curr cdrt: 1
+curr rwwq: 1
+curr thdp: 1
+curr wtgm: 1
+curr crbp: 1
+curr nczs: 1
+curr wcgs: 1
+curr jjzz: 1
+curr ngbb: 1
+curr pvdn: 1
+curr hgqq: 1
+curr ffzv: 1
+curr fzfp: 1
+curr vcmj: 1
+curr vfpt: 1
+curr rfgs: 1
+curr rjdr: 1
+curr fqss: 1
+curr zsjl: 1
+curr vtzb: 1
+curr bcnj: 1
+curr bjlc: 1
+curr jljv: 1
+curr sctf: 1
+curr rwmm: 1
+curr thph: 1
+curr vvqg: 1
+curr mfhq: 1
+curr ddzz: 1
+curr wcbf: 1
+curr jzjr: 1
+curr smds: 1
+curr btsh: 1
+curr hmhd: 1
+curr rgss: 1
+curr rnzd: 1
+curr hhzt: 1
+curr rzgv: 1
+curr qwcq: 1
+curr rgzc: 1
+curr vmwv: 1
+curr pdtn: 1
+curr bqjd: 1
+curr dpfc: 1
+curr gjdc: 1
+curr ghgq: 1
+curr hqpw: 1
+Known side : 52716091087786
+id: hqpw - ? * 2 = 52716091087786
+id: ghgq - ? - 52972860789663 = 26358045543893
+id: gjdc - ? / 5 = 79330906333556
+id: dpfc - ? + 244 = 396654531667780
+id: bqjd - ? * 19 = 396654531667536
+id: pdtn - ? + 55 = 20876554298291
+id: vmwv - ? / 2 = 20876554298236
+id: rgzc - ? + 737 = 41753108596472
+id: qwcq - ? - 820 = 41753108595735
+id: rzgv - ? / 12 = 41753108596555
+id: hhzt - ? + 780 = 501037303158660
+id: rnzd - ? * 2 = 501037303157880
+id: rgss - ? - 144 = 250518651578940
+id: hmhd - ? * 15 = 250518651579084
+id: btsh - ? + 289 = 16701243438605
+id: smds - ? / 5 = 16701243438316
+id: jzjr - ? - 137 = 83506217191580
+id: wcbf - ? / 3 = 83506217191717
+id: ddzz - ? + 118 = 250518651575151
+id: mfhq - ? * 2 = 250518651575033
+id: vvqg - ? - 142 = 125259325787516
+id: thph - ? / 6 = 125259325787658
+id: rwmm - ? - 182 = 751555954725948
+id: sctf - ? * 2 = 751555954726130
+id: jljv - ? + 166 = 375777977363065
+id: bjlc - ? * 48 = 375777977362899
+id: bcnj - ? + 773 = 7828707861727
+id: vtzb - ? / 8 = 7828707860954
+id: zsjl - ? - 203 = 62629662887632
+id: fqss - ? / 7 = 62629662887835
+id: rjdr - ? + 13 = 438407640214845
+id: rfgs - ? * 2 = 438407640214832
+id: vfpt - ? - 112 = 219203820107416
+id: vcmj - ? * 2 = 219203820107528
+id: fzfp - ? + 475 = 109601910053764
+id: ffzv - ? / 3 = 109601910053289
+id: hgqq - ? - 815 = 328805730159867
+id: pvdn - ? * 10 = 328805730160682
+id: ngbb - ? - 141 = 32880573016068
+id: jjzz - ? / 2 = 32880573016209
+id: wcgs - ? + 691 = 65761146032418
+id: nczs - ? / 3 = 65761146031727
+id: crbp - ? - 154 = 197283438095181
+id: wtgm - ? * 5 = 197283438095335
+id: thdp - ? + 735 = 39456687619067
+id: rwwq - ? * 2 = 39456687618332
+id: cdrt - ? - 900 = 19728343809166
+id: nsph - ? / 7 = 19728343810066
+id: vgwg - ? + 794 = 138098406670462
+id: jzhq - ? / 3 = 138098406669668
+id: szwf - ? + 488 = 414295220009004
+id: fcjc - ? * 2 = 414295220008516
+id: mrrn - ? - 665 = 207147610004258
+id: gmmv - ? * 28 = 207147610004923
+id: hccn - ? + 918 = 7398128928747
+id: qrst - ? / 7 = 7398128927829
+id: tqgj - ? + 6 = 51786902494803
+id: gdps - ? - 246 = 51786902494797
+id: fwfg - ? / 11 = 51786902495043
+id: gzlb - ? - 971 = 569655927445473
+id: lgrf - ? * 2 = 569655927446444
+id: wqdw - ? + 68 = 284827963723222
+id: lfpn - ? * 57 = 284827963723154
+id: wcdd - ? - 777 = 4996981819704
+id: sgtl - ? / 2 = 4996981820481
+id: qcjd - ? + 203 = 9993963640962
+-52716091087730 L R 52716091087786
+9223372036854775807
+9993963640759

@@ -1,0 +1,7 @@
+root: hqpw + nprj
+nprj: 52716091087786
+hqpw: ghgq * zlml
+zlml: 2
+ghgq: swnj - humn
+swnj: 5
+humn: 123
