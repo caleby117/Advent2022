@@ -5,6 +5,7 @@
 #include <unordered_map>
 #include <unordered_set>
 #include <deque>
+#include <iostream>
 
 using namespace std;
 
@@ -47,30 +48,49 @@ int main (int argc, char* argv[])
 {
     std::string line;
     std::ifstream infile(argv[1]);
-    vector<pair<string,string> > packets = vector<pair<string,string> >();
-    int result = 0;
+    vector<string> packets = vector<string>();
+    int result = 1;
 
     if (infile.is_open())
     {
         while (getline(infile, line))
         {
+            if (line.length() == 0) continue;
             // Code here
-            pair<string,string> curr = pair<string,string>();
-            curr.first = line.substr(1,line.length()-2);
-            getline(infile,line);
-            curr.second = line.substr(1,line.length()-2);
-            packets.push_back(curr);
-            getline(infile,line);
+            packets.push_back(line.substr(1,line.length()-2));
         }
         infile.close();
     }
-    for (int i = 0; i < packets.size(); i++)
+
+    packets.push_back("[2]");
+    packets.push_back("[6]");
+
+    // Quick and dirty bubble sort implementation
+    for (int i = packets.size(); i > 0; i--)
     {
-        if (compareLists(packets[i].first, packets[i].second) > 0)
+        for (int j = 0; j < packets.size()-1; j++)
         {
-            result+=i+1;
+            if (compareLists(packets[j], packets[j+1]) < 0)
+            {
+                string tmp = packets[j];
+                packets[j] = packets[j+1];
+                packets[j+1] = tmp;
+                //printf("cmp %s and %s\n", packets[j].c_str(), packets[j+1].c_str());
+            }
         }
     }
+
+
+    for (int i = 0; i < packets.size(); i++)
+    {
+        if(packets[i] == "[2]"|| packets[i]=="[6]")
+        {
+            result*=i+1;
+            if (packets[i] == "[6]") break;
+        }
+
+    }
+
     printf("%d\n", result);
     return 0;
 }
