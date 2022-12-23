@@ -18,8 +18,14 @@ public:
     bool visited = false;
     pair<int,int> prev;
     int dir = 0;
+    pair<int, pair<int,int>> adjEdgeLinkLROut; // which cell to go to going in that direction
+    pair<int, pair<int,int>> adjEdgeLinkUDOut; // which cell to go to going in that direction
 
-    Cell(){};
+    // Coming from another cell which direction does it map to here
+    int adjEdgeLinkLRInDir;
+    int adjEdgeLinkUDInDir;
+
+    Cell() = default;
 
     Cell(int r, int c, char v)
     {
@@ -37,7 +43,6 @@ public:
     int rows;
     int cols;
     vector<vector<Cell> > grid;
-    unordered_map<pair<pair<int,int>, int>, pair<pair<int,int>, int > > cubemap;
     Grid(){};
     Grid(int nrows, int ncols)
     {
@@ -45,7 +50,6 @@ public:
         rows = nrows;
         cols = ncols;
         // key:coord,direction, value:nextcoord, direction
-        cubemap = unordered_map<pair<pair<int,int>, int>, pair<pair<int,int>, int > >();
 
         // populate the cubemap
         // A-D
@@ -55,12 +59,14 @@ public:
             pair<int,int> DCoord = pair<int,int>(149-i,0);
             int Adir = 2;
             int Ddir = 0;
-            auto A = pair<pair<int,int>,int>(ACoord, Adir);
-            auto D = pair<pair<int,int>,int>(DCoord, Ddir);
-            cubemap.insert({A,D});
-            A.second = Ddir;
-            D.second = Adir;
-            cubemap.insert({D,A});
+
+            Cell &Acell = grid[ACoord.first][ACoord.second];
+            Cell &Dcell = grid[DCoord.first][DCoord.second];
+            Acell.adjEdgeLinkLRInDir = 0;
+            Dcell.adjEdgeLinkLRInDir = 0;
+
+            Acell.adjEdgeLinkLROut = pair<int,pair<int,int> >(2, Dcell.coords);
+            Dcell.adjEdgeLinkLROut = pair<int, pair<int,int> >(2, Acell.coords);
         }
 
     };
