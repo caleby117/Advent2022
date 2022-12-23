@@ -147,52 +147,12 @@ int main (int argc, char* argv[])
             for (int col = 0; col < line.length(); col++)
             {
                 // create cell and add to grid
-                if (line[col] == 'S')
-                {
-                    startCoords = pair<int,int>(row,col);
-                }
-                else if (line[col] == 'E')
-                {
-                    endCoords = pair<int,int>(row,col);
-                }
                 grid.add(Cell(row, col, line[col]));
             }
             row++;
         }
         infile.close();
     }
-
-    grid.printGrid();
-
-    // Get start cell and end cell
-    // perform bfs on the grid and we should be ok
-    Cell start = grid.at(startCoords);
-    
-    deque<Cell> frontier = deque<Cell>();
-    frontier.push_back(start);
-    vector<Cell> neighbors;
-    while(frontier.size())
-    {
-        result++;
-        Cell curr = frontier.front();
-        frontier.pop_front();
-        neighbors = grid.getNeighbors(curr, true);
-        for (auto cell : neighbors)
-        {
-            if (cell.visited) continue;
-            else if (curr.val == 'S')
-            {
-                cell.visited = true;
-                frontier.push_back(cell);
-            }
-            else if(cell.val - curr.val <= 1)
-            {
-                cell.visited = true;
-                frontier.push_back(cell);
-            }
-        }
-    }
-
 
     printf("%d\n", result);
     return 0;
