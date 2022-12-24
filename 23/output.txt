@@ -1,0 +1,421 @@
+Adding elf 2 7
+Adding elf 3 5
+Adding elf 3 6
+Adding elf 3 7
+Adding elf 3 9
+Adding elf 4 3
+Adding elf 4 7
+Adding elf 4 9
+Adding elf 5 4
+Adding elf 5 8
+Adding elf 5 9
+Adding elf 6 3
+Adding elf 6 5
+Adding elf 6 6
+Adding elf 6 7
+Adding elf 7 3
+Adding elf 7 4
+Adding elf 7 6
+Adding elf 7 8
+Adding elf 7 9
+Adding elf 8 4
+Adding elf 8 7
+Init:
+printing grid 14 by 14
+..............
+..............
+..............
+.......#......
+.....###.#....
+...#...#.#....
+....#...##....
+...#.###......
+...##.#.##....
+....#..#......
+..............
+..............
+..............
+..............
+Considering elf 3,7
+Direction: -1 0
+After checking: direction: -1 0
+Considering elf 4,5
+Direction: -1 0
+After checking: direction: -1 0
+Considering elf 4,6
+Direction: -1 0
+Cannot move in direction - choose another direction 1 0
+Cannot move in direction - choose another direction 0 -1
+Cannot move in direction - choose another direction 0 1
+Cannot move in direction - choose another direction -1 0
+Surrounded by other elves
+Considering elf 4,7
+Direction: -1 0
+Cannot move in direction - choose another direction 1 0
+Cannot move in direction - choose another direction 0 -1
+Cannot move in direction - choose another direction 0 1
+After checking: direction: 0 1
+Considering elf 4,9
+Direction: -1 0
+After checking: direction: -1 0
+Considering elf 5,3
+Direction: -1 0
+After checking: direction: -1 0
+Considering elf 5,7
+Direction: -1 0
+Cannot move in direction - choose another direction 1 0
+Cannot move in direction - choose another direction 0 -1
+Cannot move in direction - choose another direction 0 1
+Cannot move in direction - choose another direction -1 0
+Surrounded by other elves
+Considering elf 5,9
+Direction: -1 0
+Cannot move in direction - choose another direction 1 0
+Cannot move in direction - choose another direction 0 -1
+Cannot move in direction - choose another direction 0 1
+After checking: direction: 0 1
+Considering elf 6,4
+Direction: -1 0
+Cannot move in direction - choose another direction 1 0
+Cannot move in direction - choose another direction 0 -1
+Cannot move in direction - choose another direction 0 1
+Cannot move in direction - choose another direction -1 0
+Surrounded by other elves
+Considering elf 6,8
+Direction: -1 0
+Cannot move in direction - choose another direction 1 0
+Cannot move in direction - choose another direction 0 -1
+Cannot move in direction - choose another direction 0 1
+Cannot move in direction - choose another direction -1 0
+Surrounded by other elves
+Considering elf 6,9
+Direction: -1 0
+Cannot move in direction - choose another direction 1 0
+After checking: direction: 1 0
+Considering elf 7,3
+Direction: -1 0
+Cannot move in direction - choose another direction 1 0
+Cannot move in direction - choose another direction 0 -1
+After checking: direction: 0 -1
+Considering elf 7,5
+Direction: -1 0
+Cannot move in direction - choose another direction 1 0
+Cannot move in direction - choose another direction 0 -1
+Cannot move in direction - choose another direction 0 1
+Cannot move in direction - choose another direction -1 0
+Surrounded by other elves
+Considering elf 7,6
+Direction: -1 0
+After checking: direction: -1 0
+Considering elf 7,7
+Direction: -1 0
+Cannot move in direction - choose another direction 1 0
+Cannot move in direction - choose another direction 0 -1
+Cannot move in direction - choose another direction 0 1
+Cannot move in direction - choose another direction -1 0
+Surrounded by other elves
+Considering elf 8,3
+Direction: -1 0
+Cannot move in direction - choose another direction 1 0
+Cannot move in direction - choose another direction 0 -1
+After checking: direction: 0 -1
+Considering elf 8,4
+Direction: -1 0
+Cannot move in direction - choose another direction 1 0
+Cannot move in direction - choose another direction 0 -1
+Cannot move in direction - choose another direction 0 1
+Cannot move in direction - choose another direction -1 0
+Surrounded by other elves
+Considering elf 8,6
+Direction: -1 0
+Cannot move in direction - choose another direction 1 0
+Cannot move in direction - choose another direction 0 -1
+Cannot move in direction - choose another direction 0 1
+Cannot move in direction - choose another direction -1 0
+Surrounded by other elves
+Considering elf 8,8
+Direction: -1 0
+Cannot move in direction - choose another direction 1 0
+Cannot move in direction - choose another direction 0 -1
+Cannot move in direction - choose another direction 0 1
+Cannot move in direction - choose another direction -1 0
+Surrounded by other elves
+Considering elf 8,9
+Direction: -1 0
+Clash with anohter cell
+Considering elf 9,4
+Direction: -1 0
+Cannot move in direction - choose another direction 1 0
+After checking: direction: 1 0
+Considering elf 9,7
+Direction: -1 0
+Cannot move in direction - choose another direction 1 0
+After checking: direction: 1 0
+Move elf 3 7 to 2 7
+Move elf 4 5 to 3 5
+Move elf 4 6 to 4 6
+Move elf 4 7 to 4 8
+Move elf 4 9 to 3 9
+Move elf 5 3 to 4 3
+Move elf 5 7 to 5 7
+Move elf 5 9 to 5 10
+Move elf 6 4 to 6 4
+Move elf 6 8 to 6 8
+Move elf 6 9 to 6 9
+Move elf 7 3 to 7 2
+Move elf 7 5 to 7 5
+Move elf 7 6 to 6 6
+Move elf 7 7 to 7 7
+Move elf 8 3 to 8 2
+Move elf 8 4 to 8 4
+Move elf 8 6 to 8 6
+Move elf 8 8 to 8 8
+Move elf 8 9 to 8 9
+Move elf 9 4 to 10 4
+Move elf 9 7 to 10 7
+
+After round 1
+printing grid 14 by 14
+..............
+..............
+.......#......
+.....#...#....
+...#..#.#.....
+.......#..#...
+....#.#.##....
+..#..#.#......
+..#.#.#.##....
+..............
+....#..#......
+..............
+..............
+..............
+Considering elf 2,7
+Considering elf 3,5
+Direction: 1 0
+Cannot move in direction - choose another direction 0 -1
+After checking: direction: 0 -1
+Considering elf 4,6
+Direction: 1 0
+Cannot move in direction - choose another direction 0 -1
+Cannot move in direction - choose another direction 0 1
+Cannot move in direction - choose another direction -1 0
+Cannot move in direction - choose another direction 1 0
+Surrounded by other elves
+Considering elf 4,8
+Direction: 1 0
+Cannot move in direction - choose another direction 0 -1
+Cannot move in direction - choose another direction 0 1
+Cannot move in direction - choose another direction -1 0
+Cannot move in direction - choose another direction 1 0
+Surrounded by other elves
+Considering elf 3,9
+Direction: 1 0
+Cannot move in direction - choose another direction 0 -1
+Cannot move in direction - choose another direction 0 1
+After checking: direction: 0 1
+Considering elf 4,3
+Considering elf 5,7
+Direction: 1 0
+Cannot move in direction - choose another direction 0 -1
+Cannot move in direction - choose another direction 0 1
+Cannot move in direction - choose another direction -1 0
+Cannot move in direction - choose another direction 1 0
+Surrounded by other elves
+Considering elf 5,10
+Direction: 1 0
+Cannot move in direction - choose another direction 0 -1
+Cannot move in direction - choose another direction 0 1
+After checking: direction: 0 1
+Considering elf 6,4
+Direction: 1 0
+Cannot move in direction - choose another direction 0 -1
+After checking: direction: 0 -1
+Considering elf 6,8
+Direction: 1 0
+Cannot move in direction - choose another direction 0 -1
+Cannot move in direction - choose another direction 0 1
+Cannot move in direction - choose another direction -1 0
+Cannot move in direction - choose another direction 1 0
+Surrounded by other elves
+Considering elf 6,9
+Direction: 1 0
+After checking: direction: 1 0
+Considering elf 7,2
+Direction: 1 0
+Cannot move in direction - choose another direction 0 -1
+After checking: direction: 0 -1
+Considering elf 7,5
+Direction: 1 0
+Cannot move in direction - choose another direction 0 -1
+Cannot move in direction - choose another direction 0 1
+Cannot move in direction - choose another direction -1 0
+Cannot move in direction - choose another direction 1 0
+Surrounded by other elves
+Considering elf 6,6
+Direction: 1 0
+Cannot move in direction - choose another direction 0 -1
+Cannot move in direction - choose another direction 0 1
+Cannot move in direction - choose another direction -1 0
+Cannot move in direction - choose another direction 1 0
+Surrounded by other elves
+Considering elf 7,7
+Direction: 1 0
+Cannot move in direction - choose another direction 0 -1
+Cannot move in direction - choose another direction 0 1
+Cannot move in direction - choose another direction -1 0
+Cannot move in direction - choose another direction 1 0
+Surrounded by other elves
+Considering elf 8,2
+Direction: 1 0
+After checking: direction: 1 0
+Considering elf 8,4
+Direction: 1 0
+After checking: direction: 1 0
+Considering elf 8,6
+Direction: 1 0
+After checking: direction: 1 0
+Considering elf 8,8
+Direction: 1 0
+After checking: direction: 1 0
+Considering elf 8,9
+Direction: 1 0
+After checking: direction: 1 0
+Considering elf 10,4
+Considering elf 10,7
+Move elf 2 7 to 2 7
+Move elf 3 5 to 3 4
+Move elf 4 6 to 4 6
+Move elf 4 8 to 4 8
+Move elf 3 9 to 3 10
+Move elf 4 3 to 4 3
+Move elf 5 7 to 5 7
+Move elf 5 10 to 5 11
+Move elf 6 4 to 6 3
+Move elf 6 8 to 6 8
+Move elf 6 9 to 7 9
+Move elf 7 2 to 7 1
+Move elf 7 5 to 7 5
+Move elf 6 6 to 6 6
+Move elf 7 7 to 7 7
+Move elf 8 2 to 9 2
+Move elf 8 4 to 9 4
+Move elf 8 6 to 9 6
+Move elf 8 8 to 9 8
+Move elf 8 9 to 9 9
+Move elf 10 4 to 10 4
+Move elf 10 7 to 10 7
+
+After round 2
+printing grid 14 by 14
+..............
+..............
+.......#......
+....#.....#...
+...#..#.#.....
+.......#...#..
+...#..#.#.....
+.#...#.#.#....
+..............
+..#.#.#.##....
+....#..#......
+..............
+..............
+..............
+Considering elf 2,7
+Considering elf 3,4
+Direction: 0 -1
+Cannot move in direction - choose another direction 0 1
+After checking: direction: 0 1
+Considering elf 4,6
+Direction: 0 -1
+After checking: direction: 0 -1
+Considering elf 4,8
+Direction: 0 -1
+Cannot move in direction - choose another direction 0 1
+After checking: direction: 0 1
+Considering elf 3,10
+Considering elf 4,3
+Direction: 0 -1
+After checking: direction: 0 -1
+Considering elf 5,7
+Direction: 0 -1
+Cannot move in direction - choose another direction 0 1
+Cannot move in direction - choose another direction -1 0
+Cannot move in direction - choose another direction 1 0
+Cannot move in direction - choose another direction 0 -1
+Surrounded by other elves
+Considering elf 5,11
+Considering elf 6,3
+Considering elf 6,8
+Direction: 0 -1
+Cannot move in direction - choose another direction 0 1
+Cannot move in direction - choose another direction -1 0
+Cannot move in direction - choose another direction 1 0
+Cannot move in direction - choose another direction 0 -1
+Surrounded by other elves
+Considering elf 7,9
+Direction: 0 -1
+Cannot move in direction - choose another direction 0 1
+After checking: direction: 0 1
+Considering elf 7,1
+Considering elf 7,5
+Direction: 0 -1
+After checking: direction: 0 -1
+Considering elf 6,6
+Direction: 0 -1
+Cannot move in direction - choose another direction 0 1
+Cannot move in direction - choose another direction -1 0
+Cannot move in direction - choose another direction 1 0
+Cannot move in direction - choose another direction 0 -1
+Surrounded by other elves
+Considering elf 7,7
+Direction: 0 -1
+Cannot move in direction - choose another direction 0 1
+Cannot move in direction - choose another direction -1 0
+Cannot move in direction - choose another direction 1 0
+After checking: direction: 1 0
+Considering elf 9,2
+Considering elf 9,4
+Direction: 0 -1
+After checking: direction: 0 -1
+Considering elf 9,6
+Direction: 0 -1
+After checking: direction: 0 -1
+Considering elf 9,8
+Direction: 0 -1
+Cannot move in direction - choose another direction 0 1
+Cannot move in direction - choose another direction -1 0
+After checking: direction: -1 0
+Considering elf 9,9
+Direction: 0 -1
+Cannot move in direction - choose another direction 0 1
+After checking: direction: 0 1
+Considering elf 10,4
+Direction: 0 -1
+After checking: direction: 0 -1
+Considering elf 10,7
+Direction: 0 -1
+Cannot move in direction - choose another direction 0 1
+Cannot move in direction - choose another direction -1 0
+Cannot move in direction - choose another direction 1 0
+After checking: direction: 1 0
+Move elf 2 7 to 2 7
+Move elf 3 4 to 3 5
+Move elf 4 6 to 4 5
+Move elf 4 8 to 4 9
+Move elf 3 10 to 3 10
+Move elf 4 3 to 4 2
+Move elf 5 7 to 5 7
+Move elf 5 11 to 5 11
+Move elf 6 3 to 6 3
+Move elf 6 8 to 6 8
+Move elf 7 9 to 7 10
+Move elf 7 1 to 7 1
+Move elf 7 5 to 7 4
+Move elf 6 6 to 6 6
+Move elf 7 7 to 8 7
+Move elf 9 2 to 9 2
+Move elf 9 4 to 9 3
+Move elf 9 6 to 9 5
+Move elf 9 8 t
